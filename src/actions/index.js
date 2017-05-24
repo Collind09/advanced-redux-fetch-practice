@@ -1,3 +1,4 @@
+
 export function loadContacts(){
   return function (dispatch){
     fetch("./contacts")
