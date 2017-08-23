@@ -3,10 +3,10 @@
 * Do Not use the instructions as your guide for what code to type, use the reference guide project (address book)
 
 ### Use local api
-* http://localhost:4000/products
-* http://localhost:4000/contacts
-* http://localhost:4000/vehicles
-* http://localhost:4000/comments
+* http://localhost:4001/products
+* http://localhost:4001/contacts
+* http://localhost:4001/vehicles
+* http://localhost:4001/comments
 
 
 ### Create actions in actions/index.js to retrieve data
@@ -85,9 +85,16 @@
 * In App.js
 * call loadContacts, loadVehicles,loadComments,loadProducts in componentDidMount
 
-### Solution
-* If everything is working, information from db.json should show up under the headings on the left side
-* When you click the create button the newly created data should show up on the left side
+### Points
+* Base points - 20
+* Contacts appear in list - 10
+* Vehicles appear in list - 10
+* Comments appear in list - 10
+* Products appear in list - 10
+* Create new contact shows up in list - 10
+* Create new vehicle shows up in list - 10
+* Create new comment shows up in list - 10
+* Create new product shows up in list - 10
 
 
 
