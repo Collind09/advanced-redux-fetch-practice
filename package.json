@@ -3,21 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "babel-eslint": "^7.1.1",
-    "eslint": "^3.14.0",
-    "eslint-plugin-babel": "^4.0.1",
-    "eslint-plugin-react": "^6.9.0",
-    "react-scripts": "0.7.0"
+    "react-scripts": "*"
   },
   "dependencies": {
-    "foreman": "^2.0.0",
-    "json-server": "^0.9.4",
-    "react": "^15.3.2",
-    "react-dom": "^15.3.2",
-    "react-redux": "^5.0.4",
-    "redux": "^3.6.0",
-    "redux-thunk": "^2.2.0",
-    "whatwg-fetch": "^2.0.3"
+    "react": "*",
+    "react-dom": "*",
+    "react-redux": "*",
+    "redux": "*",
+    "foreman": "*",
+    "json-server": "*",
+    "redux-thunk": "*"
   },
   "scripts": {
     "start": "nf start",
@@ -28,5 +23,17 @@
     "test": "npm run lint && react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://localhost:4001"
+  "proxy": "http://localhost:4001",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
